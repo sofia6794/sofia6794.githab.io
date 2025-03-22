@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu&display=swap");
+
+
+body{
+    font-family: Ubuntu, serif;
+    background: linear-gradient(0deg, #2215d5 0%, #b177a6 100%);
+}
+p{
+    color: beige;
+}
+.nav-link{
+    color: rgb(108, 111, 113);
+}
+.navbar-nav .nav-link.active{
+    color: rgb(221, 225, 227);
+}
+
+.navbar-brand img{
+    width: 35px;
+}
+.navbar-toggler{
+    background-color: rgb(112, 107, 107);
+}
+.card{
+    height: 100%;
+    background: linear-gradient(270deg, #3e35bd 0%, #6e3664 100%);
+  color: beige;
+}
+.card-img-top{
+    height: 60%;
+}
+.sidebar{
+    color: beige;
+    background: linear-gradient(270deg, #3e35bd 0%, #6e3664 100%);
+}
+.slide-text{
+    color: #6e3664;
+    margin: auto auto;
+
+}
+.carousel{
+    background-color: #FCF8F7;
+   padding: 0%;
+}
+.footer-text{
+    color: #6e3664;
+    margin: auto auto;
+}
+footer{
+    background-color: aliceblue;
+
+}
+.media-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.call-anim{
+    animation: myAnim 2s ease 0s 1 normal forwards;
+}
+@keyframes myAnim {
+	0%,
+	50%,
+	100% {
+		opacity: 1;
+	}
+
+	25%,
+	75% {
+		opacity: 0;
+	}
+}
